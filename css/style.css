@@ -93,14 +93,12 @@ header{
 /*section for footer*/
 
 .container{
-    background-color: rgb(84, 216, 27);
     width: 80%;
     margin: auto;
-    height: 500px;
 
 }
 .d-foot{
-    background-color: black;
+    background-color: grey;
 }
 .row{
     display: flex;
@@ -110,12 +108,11 @@ header{
 }
 .col-1{
     width: 40%;
-    height: 500px;
-    border: 2px solid white;
+    text-align: center;
+    justify-content: center;
 }
 .col-2{
     width: 15%;
-    border: 2px solid white;
 }
 .black{
     background-color: black;
@@ -129,4 +126,28 @@ header{
 }
 section{
     margin-top: 3rem;
+}
+.color-v{
+    background-color: blueviolet;
+    color: white;
+}
+.color{
+    color: blueviolet;
+}
+hr{
+    background-color: blueviolet;
+    height: 5px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+
+}
+.mgtop-20{
+    margin-top: 20px;
+}
+.between{
+    justify-content: space-between;
+}
+.medium{
+    font-size: medium;
 }
