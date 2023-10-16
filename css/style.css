@@ -16,17 +16,15 @@
  .mbot-20{
     margin-bottom: 20px;
  }
+ image{
+    max-width: 100%;
+ }
  /*try*/
-.debug header{
-    background-color: rgb(3 90 241);
-    height: 200px;
-    
-}
 .download{
     background-image: url("jumbo.png");
-    height: 500px;
     justify-content: center;
     align-items: center;
+    padding: 150px;
 }
 
  /*header for logo*/
@@ -35,6 +33,7 @@ header{
     align-items: center;
     margin: auto;
     font-size: 25px;
+    background-color: rgb(3 90 241);
 }
 .logo{
     font-weight: bold;
@@ -43,8 +42,8 @@ header{
 }
 .menu{
     flex-grow: 2;
-    margin: 20%;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
 }
 .button{
     padding: 10px;
@@ -52,6 +51,7 @@ header{
     border-radius: 40px;
     background-color: white;
     text-align: center;
+    border: none;
 }
  /*section for dowload*/
  .download{
@@ -63,7 +63,7 @@ header{
     text-align: center;
     font-size: small;
     font-size: x-large;
-    width: 50%;
+    width: 80%;
 }
  
 .server-discord{
@@ -78,7 +78,6 @@ header{
 .img{
     background-color: palevioletred;
     width: 30%;
-    height: 500px;
 }
 .mg{
     margin: auto;
@@ -98,7 +97,9 @@ header{
 
 }
 .d-foot{
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.863);
+    color: white;
+    padding: 10px;
 }
 .row{
     display: flex;
